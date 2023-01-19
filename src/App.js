@@ -1,5 +1,5 @@
 import './App.css';
-import {Header, Home, About, Skill, Service, Qualification, Testimonial, Contact, Footer} from './components/index'
+import {Header, Home, About, Skill, Service, Qualification, Testimonial, Contact, Footer, Scrollup} from './components/index'
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
+      <Scrollup />
     </div>
   );
 }

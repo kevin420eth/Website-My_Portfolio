@@ -7,5 +7,6 @@ import Qualification from './qualification/Qualification'
 import Testimonial from './testimonial/Testimonial'
 import Contact from './contact/Contact'
 import Footer from './footer/Footer'
+import Scrollup from './scrollup/Scrollup'
 
-export {Header, Home, About, Skill, Service, Qualification, Testimonial, Contact, Footer};
+export {Header, Home, About, Skill, Service, Qualification, Testimonial, Contact, Footer, Scrollup};

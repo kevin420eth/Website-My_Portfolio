@@ -5,7 +5,19 @@ import {BsPerson, BsBriefcase} from 'react-icons/bs'
 import {BiPhotoAlbum} from 'react-icons/bi'
 
 const Header = ()=>{
-    const[Toggle,showMenu]=React.useState(false)
+    window.addEventListener('scroll', function(){
+        const header = document.querySelector('.header')
+        console.log('sdfdsf')
+        //when the scroll is higher then 200 viewport height, 
+        //add the scroll-header class to <a> tag with the header tag
+        if (this.scrollY >= 80){
+            header.classList.add('scroll-header')
+        }else{
+            header.classList.remove('scroll-header')
+        }
+        })
+    
+    const [Toggle,showMenu] = React.useState(false)
 
     return(
         <header className='header'>
@@ -15,7 +27,7 @@ const Header = ()=>{
                 <div className={`nav__menu ${Toggle?'show-menu':''}`}>
                     <ul className='nav__list grid'>
                         <li className='nav__item'>
-                            <a href='index.html' className='nav__link'><AiOutlineHome className='nav__icon'/> Home</a>
+                            <a href='#top' className='nav__link'><AiOutlineHome className='nav__icon'/> Home</a>
                         </li>
 
                         <li className='nav__item'>
@@ -27,11 +39,11 @@ const Header = ()=>{
                         </li>
 
                         <li className='nav__item'>
-                            <a href='#servics' className='nav__link'><BsBriefcase className='nav__icon'/> Servics</a>
+                            <a href='#services' className='nav__link'><BsBriefcase className='nav__icon'/> Servics</a>
                         </li>
 
                         <li className='nav__item'>
-                            <a href='#portfolio' className='nav__link'><BiPhotoAlbum className='nav__icon'/> Portfolio</a>
+                            <a href='#qualification' className='nav__link'><BiPhotoAlbum className='nav__icon'/> Portfolio</a>
                         </li>
 
                         <li className='nav__item'>
