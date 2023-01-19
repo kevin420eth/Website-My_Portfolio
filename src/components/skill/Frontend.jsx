@@ -4,14 +4,14 @@ import {SlBadge} from 'react-icons/sl'
 const Frontend = ()=>{
     return(
         <div className="skills__content">
-            <h3 className="skills__title">Frontend developer</h3>
+            <h3 className="skills__title">Frontend</h3>
 
             <div className="skills__box">
                 <div className="skills__group">
 
                     <div className="skills__data">
 
-                        <i><SlBadge /></i>
+                        <i className="badge-icon"><SlBadge /></i>
 
                         <div className="">
                             <h3 className="skills__name">HTML</h3>
@@ -22,7 +22,7 @@ const Frontend = ()=>{
 
                     <div className="skills__data">
 
-                        <i><SlBadge /></i>
+                        <i className="badge-icon"><SlBadge /></i>
 
                         <div className="">
                             <h3 className="skills__name">CSS</h3>
@@ -33,7 +33,7 @@ const Frontend = ()=>{
 
                     <div className="skills__data">
 
-                        <i><SlBadge /></i>
+                        <i className="badge-icon"><SlBadge /></i>
 
                         <div className="">
                             <h3 className="skills__name">JavaScript</h3>
@@ -48,7 +48,7 @@ const Frontend = ()=>{
 
                     <div className="skills__data">
 
-                        <i><SlBadge /></i>
+                        <i className="badge-icon"><SlBadge /></i>
 
                         <div className="">
                             <h3 className="skills__name">Bootstrap</h3>
@@ -59,7 +59,7 @@ const Frontend = ()=>{
 
                     <div className="skills__data">
 
-                        <i><SlBadge /></i>
+                        <i className="badge-icon"><SlBadge /></i>
 
                         <div className="">
                             <h3 className="skills__name">Git</h3>
@@ -70,7 +70,7 @@ const Frontend = ()=>{
 
                     <div className="skills__data">
 
-                        <i><SlBadge /></i>
+                        <i className="badge-icon"><SlBadge /></i>
 
                         <div className="">
                             <h3 className="skills__name">React</h3>
