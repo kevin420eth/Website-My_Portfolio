@@ -11,7 +11,6 @@ function App() {
         <Skill />
         <Service />
         <Qualification />
-        <Testimonial />
         <Contact />
       </main>
       <Footer />
