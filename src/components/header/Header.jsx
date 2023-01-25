@@ -7,7 +7,7 @@ import {BiPhotoAlbum} from 'react-icons/bi'
 const Header = ()=>{
     window.addEventListener('scroll', function(){
         const header = document.querySelector('.header')
-        console.log('sdfdsf')
+
         //when the scroll is higher then 200 viewport height, 
         //add the scroll-header class to <a> tag with the header tag
         if (this.scrollY >= 80){

@@ -68,6 +68,17 @@ const Backend = () => {
 
                     </div>
 
+                    <div className="skills__data">
+
+                        <i className="badge-icon"><SlBadge /></i>
+
+                        <div className="">
+                            <h3 className="skills__name">Solidity</h3>
+                            <span className="skills__level">Intermediate</span>
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
         </div>
