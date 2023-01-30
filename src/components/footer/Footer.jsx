@@ -29,7 +29,7 @@ const Footer = ()=>{
                     <a href="https://twitter.com/KevinMarsETH" className="footer__social-link" target='_blank' rel="noreferrer"><AiOutlineTwitter /></a>
                     <a href="https://github.com/" className="footer__social-link" target='_blank' rel="noreferrer"><AiOutlineGithub /></a>
                 </div>
-                
+
                 <span className='footer__copy'>© {year} Kevin Mars. All rights reserved.</span>
             </div>
         </footer>
