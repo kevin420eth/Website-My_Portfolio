@@ -51,14 +51,16 @@ const Header = ()=>{
                         </li>
 
                     </ul>
-                    <i className='nav__close' onClick={()=>{
-                        showMenu(false)
-                    }}><AiOutlineCloseCircle /></i>
+
+                    <i className='nav__close' onClick={()=>{showMenu(false)}}>
+                        <AiOutlineCloseCircle />
+                    </i>
+
                 </div>
 
-                <div className='nav__toggle' onClick={()=>{
-                    showMenu(true)
-                }}><AiOutlineAppstore/></div>
+                <div className='nav__toggle' onClick={()=>{showMenu(true)}}>
+                    <AiOutlineAppstore/>
+                </div>
 
             </nav>
         </header>
