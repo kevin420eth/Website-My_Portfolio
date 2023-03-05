@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import './contact.css'
 import { AiOutlineMail, AiOutlineWhatsApp, AiOutlineArrowRight } from 'react-icons/ai'
-import { RiMessengerLine } from 'react-icons/ri'
+import { RiTelegramLine } from 'react-icons/ri'
 import emailjs from '@emailjs/browser';
 
 
@@ -31,21 +31,21 @@ const Contact = () => {
                             <i className='contact__card-icon'><AiOutlineMail /></i>
 
                             <h3 className='contact__card-title'>Email</h3>
-                            <a href='mailto:examplemail@gmail.com.com' className='contact__button'>Write me <i className='contact__button-icon'><AiOutlineArrowRight /></i></a>
+                            <a href='mailto:kevin.eth.420@gmail.com' className='contact__button'>Write me <i className='contact__button-icon'><AiOutlineArrowRight /></i></a>
                         </div>
 
                         <div className='contact__card'>
                             <i className='contact__card-icon'><AiOutlineWhatsApp /></i>
 
                             <h3 className='contact__card-title'>Whatsapp</h3>
-                            <a href='https://api.whatsapp.com/send?phone=62214408789&text=Hello, more information!' className='contact__button'>Write me <i className='contact__button-icon'><AiOutlineArrowRight /></i></a>
+                            <a href='https://api.whatsapp.com/send?phone=886968719602&text=Hello!' className='contact__button' target='_blank' rel="noreferrer">Write me <i className='contact__button-icon'><AiOutlineArrowRight /></i></a>
                         </div>
 
                         <div className='contact__card'>
-                            <i className='contact__card-icon'><RiMessengerLine /></i>
+                            <i className='contact__card-icon'><RiTelegramLine /></i>
 
-                            <h3 className='contact__card-title'>Messenger</h3>
-                            <a href='https://m.me/crypticalcoder' className='contact__button'>Write me <i className='contact__button-icon'><AiOutlineArrowRight /></i></a>
+                            <h3 className='contact__card-title'>Telegram</h3>
+                            <a href='https://t.me/KevinMarsETH/' className='contact__button' target='_blank' rel="noreferrer">Write me <i className='contact__button-icon'><AiOutlineArrowRight /></i></a>
                         </div>
                     </div>
                 </div>

@@ -22,7 +22,7 @@ const Header = () => {
     return (
         <header className='header'>
             <nav className='nav container'>
-                <a href='index.html' className='nav__logo'>Kevin Mars</a>
+                <a href='https://kevmars.com' className='nav__logo'>Kevin Mars</a>
 
                 <div className={`nav__menu ${Toggle ? 'show-menu' : ''}`}>
                     <ul className='nav__list grid'>
