@@ -21,7 +21,7 @@ const About = ()=>{
                     carried out.
                     </p>
 
-                    <a href={CV} download='cv' className='button button--flex'>Download CV
+                    <a href={CV} download='Kevin Mars' className='button button--flex'>Download CV
                     <svg
                 className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
