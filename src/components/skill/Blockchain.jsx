@@ -1,10 +1,10 @@
-import React from "react";
+import React from "react"
 import { SlBadge } from 'react-icons/sl'
 
-const Backend = () => {
+const Blockchain = () => {
     return (
         <div className="skills__content">
-            <h3 className="skills__title">Backend</h3>
+            <h3 className="skills__title">Blockchain</h3>
 
             <div className="skills__box">
                 <div className="skills__group">
@@ -14,7 +14,7 @@ const Backend = () => {
                         <i className="badge-icon"><SlBadge /></i>
 
                         <div className="">
-                            <h3 className="skills__name">Python</h3>
+                            <h3 className="skills__name">Solidity</h3>
                             <span className="skills__level">Advanced</span>
                         </div>
 
@@ -25,66 +25,38 @@ const Backend = () => {
                         <i className="badge-icon"><SlBadge /></i>
 
                         <div className="">
-                            <h3 className="skills__name">Node Js</h3>
-                            <span className="skills__level">Advanced</span>
-                        </div>
-
-                    </div>
-
-                    <div className="skills__data">
-
-                        <i className="badge-icon"><SlBadge /></i>
-
-                        <div className="">
-                            <h3 className="skills__name">Mongodb</h3>
+                            <h3 className="skills__name">Truffle</h3>
                             <span className="skills__level">Intermediate</span>
                         </div>
 
                     </div>
 
+                    <div className="skills__data">
+
+                        <i className="badge-icon"><SlBadge /></i>
+
+                        <div className="">
+                            <h3 className="skills__name">Web3.js</h3>
+                            <span className="skills__level">Intermediate</span>
+                        </div>
+                    </div>
                 </div>
 
                 <div className="skills__group">
-
                     <div className="skills__data">
 
                         <i className="badge-icon"><SlBadge /></i>
 
                         <div className="">
-                            <h3 className="skills__name">MySQL</h3>
-                            <span className="skills__level">Intermediate</span>
+                            <h3 className="skills__name">Ethers.js</h3>
+                            <span className="skills__level">Advanced</span>
                         </div>
 
                     </div>
-
-
-
-                    <div className="skills__data">
-
-                        <i className="badge-icon"><SlBadge /></i>
-
-                        <div className="">
-                            <h3 className="skills__name">AWS</h3>
-                            <span className="skills__level">Intermediate</span>
-                        </div>
-
-                    </div>
-
-                    <div className="skills__data">
-
-                        <i className="badge-icon"><SlBadge /></i>
-
-                        <div className="">
-                            <h3 className="skills__name">Heroku</h3>
-                            <span className="skills__level">Intermediate</span>
-                        </div>
-
-                    </div>
-
                 </div>
             </div>
         </div>
     )
 }
 
-export default Backend
+export default Blockchain
