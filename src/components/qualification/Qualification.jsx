@@ -108,11 +108,11 @@ const Qualification = ()=>{
                         <div className='qualification__data'>
 
                             <div>
-                                <h3 className='qualification__title'>Baseball</h3>
-                                <span className='qualification__subtitle'>Spain - Institute</span>
+                                <h3 className='qualification__title'>Math Teacher</h3>
+                                <span className='qualification__subtitle'>Highschool</span>
 
                                 <div className='qualification__calender'>
-                                    <i><SlCalender /> 2021 - Present</i>
+                                    <i><SlCalender /> 2016 - 2018</i>
                                 </div>
                             </div>
 
@@ -131,11 +131,11 @@ const Qualification = ()=>{
                             </div>
 
                             <div>
-                                <h3 className='qualification__title'>NBA</h3>
-                                <span className='qualification__subtitle'>Spain - Institute</span>
+                                <h3 className='qualification__title'>Product Manager</h3>
+                                <span className='qualification__subtitle'>Hardware Industry</span>
 
                                 <div className='qualification__calender'>
-                                    <i><SlCalender /> 2021 - Present</i>
+                                    <i><SlCalender /> 2018 - 2021</i>
                                 </div>
                             </div>
                         </div>
@@ -143,7 +143,7 @@ const Qualification = ()=>{
                         <div className='qualification__data'>
                             <div>
                                 <h3 className='qualification__title'>Web3 Developer</h3>
-                                <span className='qualification__subtitle'>Spain - Institute</span>
+                                <span className='qualification__subtitle'>Ethereum</span>
 
                                 <div className='qualification__calender'>
                                     <i><SlCalender /> 2021 - 2023</i>
@@ -165,11 +165,11 @@ const Qualification = ()=>{
                             </div>
 
                             <div>
-                                <h3 className='qualification__title'>NHL</h3>
-                                <span className='qualification__subtitle'>Spain - Institute</span>
+                                <h3 className='qualification__title'>Full Stack Developer</h3>
+                                <span className='qualification__subtitle'>Kevinmars.com</span>
 
                                 <div className='qualification__calender'>
-                                    <i><SlCalender /> 2017 - Present</i>
+                                    <i><SlCalender /> 2021 - present</i>
                                 </div>
                             </div>
                         </div>
