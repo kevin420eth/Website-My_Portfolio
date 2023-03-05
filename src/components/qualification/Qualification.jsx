@@ -36,11 +36,11 @@ const Qualification = ()=>{
                         <div className='qualification__data'>
 
                             <div>
-                                <h3 className='qualification__title'>Web Design</h3>
-                                <span className='qualification__subtitle'>Spain - Institute</span>
+                                <h3 className='qualification__title'>NKNU</h3>
+                                <span className='qualification__subtitle'>Mathematics</span>
 
                                 <div className='qualification__calender'>
-                                    <i><SlCalender /> 2021 - Present</i>
+                                    <i><SlCalender /> 2012 - 2016</i>
                                 </div>
                             </div>
                             <div>
@@ -58,11 +58,11 @@ const Qualification = ()=>{
                             </div>
 
                             <div>
-                                <h3 className='qualification__title'>Art Director</h3>
-                                <span className='qualification__subtitle'>Spain - Institute</span>
+                                <h3 className='qualification__title'>Python Academy</h3>
+                                <span className='qualification__subtitle'>Machine Learning</span>
 
                                 <div className='qualification__calender'>
-                                    <i><SlCalender /> 2021 - Present</i>
+                                    <i><SlCalender /> 2020 - 2021</i>
                                 </div>
                             </div>
                         </div>
@@ -70,11 +70,11 @@ const Qualification = ()=>{
                         <div className='qualification__data'>
 
                             <div>
-                                <h3 className='qualification__title'>Web Development</h3>
-                                <span className='qualification__subtitle'>Spain - Institute</span>
+                                <h3 className='qualification__title'>Web Development Online Course</h3>
+                                <span className='qualification__subtitle'>Javascript, React</span>
 
                                 <div className='qualification__calender'>
-                                    <i><SlCalender /> 2021 - Present</i>
+                                    <i><SlCalender /> 2021 - 2022</i>
                                 </div>
                                 
                             </div>
@@ -93,11 +93,11 @@ const Qualification = ()=>{
                             </div>
 
                             <div>
-                                <h3 className='qualification__title'>UI Expert</h3>
-                                <span className='qualification__subtitle'>Spain - Institute</span>
+                                <h3 className='qualification__title'>DevOps<br/> Online Course</h3>
+                                <span className='qualification__subtitle'>Docker, Kubernetes</span>
 
                                 <div className='qualification__calender'>
-                                    <i><SlCalender /> 2017 - Present</i>
+                                    <i><SlCalender /> 2022 - Present</i>
                                 </div>
                             </div>
                         </div>
@@ -142,14 +142,12 @@ const Qualification = ()=>{
 
                         <div className='qualification__data'>
                             <div>
-                                <h3 className='qualification__title'>NFL</h3>
+                                <h3 className='qualification__title'>Web3 Developer</h3>
                                 <span className='qualification__subtitle'>Spain - Institute</span>
 
                                 <div className='qualification__calender'>
-                                    <i><SlCalender /> 2021 - Present</i>
+                                    <i><SlCalender /> 2021 - 2023</i>
                                 </div>
-
-
                             </div>
 
                             <div>
