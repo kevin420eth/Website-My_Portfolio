@@ -34,7 +34,7 @@ const Footer = () => {
 
                 <div className='footer__social'>
                     <a href="https://github.com/kevin420eth" className="footer__social-link" target='_blank' rel="noreferrer"><AiOutlineGithub /></a>
-                    <a href="https://twitter.com/KevinMarsETH" className="footer__social-link" target='_blank' rel="noreferrer"><AiOutlineTwitter /></a>
+                    <a href="https://twitter.com/Kevin420eth" className="footer__social-link" target='_blank' rel="noreferrer"><AiOutlineTwitter /></a>
                     <a href="https://instagram.com/celtics345209" className="footer__social-link" target='_blank' rel="noreferrer"><AiOutlineInstagram /></a>
                 </div>
 
