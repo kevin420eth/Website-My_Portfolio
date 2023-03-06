@@ -57,7 +57,7 @@ const Data = () => {
 
       <h3 className='home__subtitle'>A Programming Enthusiasm</h3>
       <p className='home__description'>I found that programming is my destiny
-        when I was 28. Sometimes I wish I could learn programming earlier, the industry and its community are just <br/>so
+        when I was 28. Sometimes I wish I could learn programming earlier in my life, the industry and its community are just so
         attractive to me. <br /> Life is like a box of chocolate, isn't it?
       </p>
 
