@@ -4,7 +4,7 @@ import { FiInstagram, FiTwitter, FiGithub } from 'react-icons/fi'
 const Socials = () => {
     return (
         <div className="home__social">
-            <a href="https://github.com/kevin420.eth" className="home__social-icon" target='_blank' rel="noreferrer"><FiGithub /></a>
+            <a href="https://github.com/kevin420eth" className="home__social-icon" target='_blank' rel="noreferrer"><FiGithub /></a>
             <a href="https://twitter.com/Kevin420eth" className="home__social-icon" target='_blank' rel="noreferrer"><FiTwitter /></a>
             <a href="https://instagram.com/celtics345209" className="home__social-icon" target='_blank' rel="noreferrer"><FiInstagram /></a>
         </div>
