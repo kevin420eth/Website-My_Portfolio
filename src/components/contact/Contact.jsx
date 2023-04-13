@@ -12,7 +12,10 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_tift2na', 'template_kmz58e6', form.current, 'OsDrvCbNW9RvPbhz1')
+        emailjs.sendForm('service_6soa5u4', 'template_a8d3f33', form.current, 'nKd0EqIv95U-g9IVV')
+        .then(()=>{
+            alert('Your message have been sent!')
+        })
         e.target.reset()
     };
 
@@ -66,8 +69,8 @@ const Contact = () => {
                         </div>
 
                         <div className='contact__form-div contact__form-area'>
-                            <label className='contact__form-tag'>Project</label>
-                            <textarea name='project' cols='30' rows='10' className='contact__form-input' placeholder='Write your project'></textarea>
+                            <label className='contact__form-tag'>Message</label>
+                            <textarea name='message' cols='30' rows='10' className='contact__form-input' placeholder='Write your message'></textarea>
                         </div>
 
                         <button className='button button--flex'>
